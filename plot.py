@@ -17,8 +17,9 @@ plt.plot(x, data[0:100,0]/100)
 
 
 plt.subplot(1,2,2)
-plt.plot(x, data[0:100,0])
-plt.plot(x, data[0:100,1])
+plt.plot(x, data[0:100,0], label = "Inicial")
+plt.plot(x, data[0:100,3], label = "Final")
+
 plt.xlim(0,1)
 plt.ylim(-1,1)
 
